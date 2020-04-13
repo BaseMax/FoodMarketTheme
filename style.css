@@ -1,1 +1,206 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+body {
+	background: white;
+	font-family: 'Roboto';
+	font-size: 22px;
+}
+a {
+	text-decoration: none;
+}
+img {
+	max-width: 100%;
+	border: 0px;
+}
+li {
+	list-style: none;
+}
+textarea:focus, input:focus{
+	outline: none;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active  {
+	-webkit-box-shadow: 0 0 0 30px #f8f8f8 inset !important;
+}
+header {
+	width: 100%;
+	float: left;
+	height: auto;
+	line-height: 40px;
+}
+header .logo {
+	font-weight: 350;
+}
+header .padding {
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 15px;
+}
+header .left {
+	width: 25%;
+	float: left;
+	display: inline-block;
+}
+header .center {
+	width: 50%;
+	float: left;
+	display: inline-block;
+}
+header .right {
+	width: 25%;
+	float: right;
+	display: inline-block;
+}
+.no-selectable {
+	-webkit-touch-callout: none; /* iOS Safari */
+	-webkit-user-select: none;   /* Safari */
+	-khtml-user-select: none;    /* Konqueror HTML */
+	-moz-user-select: none;      /* Firefox */
+	-ms-user-select: none;       /* Internet Explorer/Edge */
+	user-select: none;           /* Non-prefixed version, currently supported by Chrome and Opera */
+}
+header .basket-number {
+	position: relative;
+	z-index: 999;
+	cursor: pointer;
+	width: 35px;
+	height: 35px;
+	border-radius: 10px;
+	text-align: center;
+	line-height: 35px;
+	font-size: 14px;
+	color: #0c0200;
+	background-color: #fcd661;
+	float: right;
+}
+header .account-profile {
+	float: right;
+	margin-right: 25px;
+	margin-top: 5px;
+}
+header .account-profile .icon {
+	width: 20px;
+}
+.clear {
+	clear: both;
+}
+/*content*/
+content {
+	width: 100%;
+	margin: auto;
+	float: left;
+}
+content.single {
+	width: 84%;
+	margin-left: 8%;
+	margin-right: 8%;
+}
+content aside.left {
+	width: 71%;
+	float: left;
+}
+content.single aside.left {
+	width: 100%;
+}
+content aside.right {
+	display: none;
+	width: 24%;
+	/*width: 29%;*/
+	float: left;
+	position: inherit;
+	right: 0px;
+	top: 50px;
+}
+content aside.right.active {
+	display: block;
+}
+content aside.right.active .content-padding {
+	margin-right: 4%;
+}
+content aside.left .content-padding {
+	margin-right: 4%;
+	margin-left: 4%;
+}
+content .padding {
+	padding: 30px;
+}
+/*slider*/
+.slider {
+	float: left;
+	width: 100%;
+}
+.slider1 {
+	width: 100%;
+	background-color: #fef7ec;
+	float: right;
+	position: relative;
+	margin-top: 70px;
+	border-radius: 25px;
+}
+.slider1 .left {
+	width: 25%;
+	float: left;
+	margin-top: -70px;
+	height: 250px;
+}
+.slider1 .left img {
+	height: 100%;
+	width: auto;
+}
+.slider1 .right {
+	width: 70%;
+	margin-left: 5%;
+	float: right;
+}
+.slider1 .right .title {
+	color: #fc6c39;
+	margin-top: 55px;
+}
+.slider1 .right .title .icon {
+	width: 30px;
+}
+.slider1 .right p {
+	color: #a69e97;
+	font-size: 16px;
+}
+.slider .right .more {
+	color: #e97047;
+	float: right;
+	bottom: 35px;
+	right: 35px;
+	position: absolute;
+	font-size: 16px;
+	font-weight: bold;
+}
+.slider .right .more .icon {
+	float: right;
+	margin-left: 10px;
+}
+section {
+	float: left;
+	width: 100%;
+	margin-bottom: 30px;
+}
+section .title {
+	float: left;
+	margin-top: 20px;
+	margin-left: 30px;
+	margin-bottom: 10px;
+}
+section .title .icon {
+	width: 30px;
+}
+section .section-content {
+	width: 96%;
+	height: auto;
+	float: left;
+	display: inline-block;
+	margin-top: 15px;
+	padding-left: 2%;
+	padding-right: 2%;
+}
 
