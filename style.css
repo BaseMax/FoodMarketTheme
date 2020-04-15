@@ -289,3 +289,103 @@ content aside.right .title {
 content aside.right .title .icon {
 	width: 30px;
 }
+/*orders*/
+.orders {
+	margin-top: 25px;
+	float: left;
+	width: 100%;
+}
+.orders ul {
+	margin: 5px;
+}
+.orders ul li {
+	margin-bottom: 10px;
+	width: 100%;
+	display: inline-block;
+}
+.orders ul li .image {
+	border-radius: 10px;
+	width: 100px;
+	height: auto;
+	float: left;
+}
+.orders ul li .number {
+	float: left;
+	margin-left: 10px;
+	color: #000000;
+	font-size: 15px;
+}
+.orders ul li .info {
+	margin-top: 20px;
+}
+.orders ul li .numberX {
+	float: left;
+	margin-left: 5px;
+	color: #000000;
+	font-size: 15px;
+}
+.orders ul li .name {
+	float: left;
+	margin-left: 10px;
+	color: #000000;
+	font-size: 17px;
+}
+.orders ul li .price {
+	float: right;
+	color: #959593;
+	font-size: 16px;
+}
+/*timeinfo-box*/
+.timeinfo-box {
+	margin-top: 20px;
+	float: left;
+	width: 100%;
+	height: auto;
+	background-color: #503e9d;
+	border-radius: 20px;
+}
+.timeinfo-box .padding {
+	padding: 20px;
+}
+.timeinfo-box label {
+	color: #faf1ff;
+	font-size: 16px;
+}
+.timeinfo-box .top {
+	width: 100%;
+	float: left;
+	margin-bottom: 20px;
+}
+.timeinfo-box .bottom {
+	width: 100%;
+	float: left;
+	margin-bottom: 20px;
+}
+.timeinfo-box .time-box {
+	float: left;
+}
+.timeinfo-box .time-box label {
+	margin-top: 10px;
+	margin-left: 8px;
+	float: left;
+}
+.timeinfo-box .time-box .icon-box {
+	float: left;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	background-color: #614c97;
+	border-radius: 10px;
+}
+.timeinfo-box .time-box .icon-box .icon {
+	width: 20px;
+	margin-top: 10px;
+}
+.timeinfo-box a {
+	float: right;
+	color: #f7d57e;
+	font-size: 15px;
+	cursor: pointer;
+	font-weight: bold;
+	margin-top: 11px;
+}
