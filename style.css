@@ -501,3 +501,37 @@ content aside.right .title .icon {
 	-webkit-transition: opacity .3s;
 	transition: opacity .3s;
 }
+.pn-Advancer:focus {
+	outline: 0;
+}
+.pn-Advancer:hover {
+	cursor: pointer;
+}
+.pn-Advancer_Left {
+	left: 0;
+}
+[data-overflowing="both"] ~ .pn-Advancer_Left, [data-overflowing="left"] ~ .pn-Advancer_Left {
+	opacity: 1;
+}
+.pn-Advancer_Right {
+	right: 0;
+}
+[data-overflowing="both"] ~ .pn-Advancer_Right, [data-overflowing="right"] ~ .pn-Advancer_Right {
+	opacity: 1;
+}
+.pn-Advancer_Icon {
+	width: 15px;
+	height: 20px;
+	fill: #bbb;
+}
+.pn-Advancer {
+	background-color: #fff;
+	color: #757575;
+	box-shadow: 0 4px 4px rgba(0,0,0,0.3), 0 0 4px rgba(0,0,0,0.2);
+	cursor: pointer;
+	border-radius: 50%;
+	margin: auto;
+	width: 25px;
+	height: 25px;
+}
+
