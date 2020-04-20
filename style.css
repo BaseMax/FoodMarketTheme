@@ -585,3 +585,62 @@ content aside.right .title .icon {
 		margin-right: 4%;
 	}
 }
+.search-field {
+	background: #f8f8f8;
+	border-radius: 15px;
+	float: left;
+	width: 100%;
+}
+.search-field .icon {
+	float: left;
+	width: 18px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.search-field input, .search-field button {
+	height: 50px;
+	border: 0px;
+	background-color: transparent;
+	float: left;
+}
+.search-field button {
+	cursor: pointer;
+}
+.search-field input {
+	width: calc(100% - 68px);
+	border: 0px;
+}
+.button-buy {
+	float: right;
+	background-color: #fcd661;
+	border-radius: 20px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	height: 100px;
+	line-height: 100px;
+	padding-left: 45px;
+	padding-right: 65px;
+	position: inherit;
+	/*right: 0px;*/
+	/*bottom: 50px;*/
+	margin-top: 15px;
+	margin-bottom: 35px;
+	margin-right: -20%;
+}
+.invoice {
+	width: calc(100% - 40px);
+	float: left;
+	font-size: 24px;
+	margin-left: 40px;
+	margin-top: 35px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #d9d9d9;
+	margin-bottom: 10px;
+}
+.invoice label {
+	float: left;
+}
+.invoice span {
+	float: right;
+	font-size: 30px;
+}
