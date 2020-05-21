@@ -1,4 +1,4 @@
-# Sweden Food Market
+# Food Market Theme
 
 Theme for food market.
 
