@@ -1,10 +1,15 @@
 # Sweden Food Market
 
-Theme for food market designed for a sweden company.
+Theme for food market.
 
 ![Video Sweden Food Market](demo/demo.gif)
 
 ![Demo Sweden Food Market](demo/demo.jpg)
+
+### Thanks to
+
+- Max Base
+- Cuberto (UI/UX)
 
 ---------
 
