@@ -2,9 +2,9 @@
 
 Theme for food market designed for a sweden company.
 
-![Video Sweden Food Market](demo.gif)
+![Video Sweden Food Market](demo/demo.gif)
 
-![Demo Sweden Food Market](demo.jpg)
+![Demo Sweden Food Market](demo/demo.jpg)
 
 ---------
 
